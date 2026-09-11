@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UP Tala | CS 191 Progress Blog</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <span class="logo-badge">ACF</span>
+                <span class="logo-text">UP Tala</span>
+            </a>
+            <nav class="nav-links">
+                <a href="index.html" class="nav-link active">Home</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="resources.html" class="nav-link">Resources</a>
+            </nav>
+            <button class="mobile-menu-btn" aria-label="Toggle menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container hero-content">
+            <div class="hero-badge">
+                <span class="badge-dot"></span>
+                CS 191 Software Engineering Project
+            </div>
+            <h1 class="hero-title">
+                UP Tala<br>
+                <span class="hero-accent">Progress Blog</span>
+            </h1>
+            <p class="hero-subtitle">
+                A development journal for ACF's CS 191 project with Solheim Library. This site tracks progress reports, milestones, and project resources as the work moves from planning into implementation.
+            </p>
+            <div class="hero-actions">
+                <a href="#progress" class="btn btn-primary">View Progress Reports</a>
+                <a href="resources.html" class="btn btn-secondary">View Resources</a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat">
+                    <div class="stat-number">ACF</div>
+                    <div class="stat-label">Project Developer</div>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <div class="stat-number">3</div>
+                    <div class="stat-label">Team Members</div>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <div class="stat-number">CS 191</div>
+                    <div class="stat-label">Software Engineering</div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-decoration" aria-hidden="true"></div>
+    </section>
+
+    <section class="featured-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Latest Progress Report</h2>
+                <a href="#progress" class="section-link">View timeline -&gt;</a>
+            </div>
+            <article class="featured-post">
+                <div class="featured-image">
+                    <div class="featured-image-fallback">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/>
+                        </svg>
+                    </div>
+                </div>
+                <div class="featured-content">
+                    <div class="post-category featured-category">Progress Report</div>
+                    <h3 class="featured-title">[Latest Progress Report Title TBD]</h3>
+                    <p class="featured-excerpt">[Latest progress report summary TBD. Add a one- to two-sentence summary here once the first report is ready.]</p>
+                    <div class="post-meta">
+                        <div>
+                            <div class="author-name">Date</div>
+                            <div class="post-date">[Report date TBD]</div>
+                        </div>
+                        <a href="report-template.html" class="btn btn-outline">Open Report Page</a>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section id="progress" class="timeline-section">
+        <div class="container">
+            <div class="section-header center">
+                <h2 class="section-title">Progress Report Timeline</h2>
+                <p class="section-subtitle">A chronological record of project updates. Each report links to a separate HTML page for the full content.</p>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">[Report date TBD]</div>
+                    <p class="timeline-desc">[Short report summary TBD. Keep this to one or two sentences for quick scanning.]</p>
+                    <a href="report-template.html" class="timeline-link">Open full report</a>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">[Report date TBD]</div>
+                    <p class="timeline-desc">[Short report summary TBD. Keep this placeholder for the next progress report once it is ready.]</p>
+                    <a href="report-template.html" class="timeline-link">Open full report</a>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">[Report date TBD]</div>
+                    <p class="timeline-desc">[Short report summary TBD. Use this placeholder for a future sprint report, milestone update, or adviser update.]</p>
+                    <a href="report-template.html" class="timeline-link">Open full report</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <a href="index.html" class="logo footer-logo">
+                    <span class="logo-badge">ACF</span>
+                    <span class="logo-text">UP Tala</span>
+                </a>
+                <p class="footer-tagline">CS 191 progress blog and project resource hub for ACF's work with Solheim Library.</p>
+            </div>
+            <div class="footer-links-group">
+                <div class="footer-col">
+                    <h5>Navigate</h5>
+                    <a href="index.html" class="footer-link">Home</a>
+                    <a href="about.html" class="footer-link">About</a>
+                    <a href="resources.html" class="footer-link">Resources</a>
+                </div>
+                <div class="footer-col">
+                    <h5>Project</h5>
+                    <a href="index.html#progress" class="footer-link">Progress Timeline</a>
+                    <a href="about.html#team" class="footer-link">Team</a>
+                    <a href="resources.html" class="footer-link">Project Plan PDF</a>
+                    <a href="report-template.html" class="footer-link">Report Template</a>
+                </div>
+                <div class="footer-col">
+                    <h5>Details</h5>
+                    <p class="footer-link" style="cursor:default;">Developer: ACF</p>
+                    <p class="footer-link" style="cursor:default;">Client: Solheim Library</p>
+                    <p class="footer-link" style="cursor:default;">Course: CS 191</p>
+                    <p class="footer-link" style="cursor:default;">Project Name: UP Tala</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container footer-bottom-inner">
+                <p>&copy; 2026 ACF. Created for CS 191 - Software Engineering.</p>
+                <div class="footer-palette">
+                    <span class="swatch swatch-red" title="#7b1113 - UP Maroon"></span>
+                    <span class="swatch swatch-green" title="#006837 - UP Green"></span>
+                    <span class="swatch swatch-white" title="#ffffff - White"></span>
+                    <span class="palette-label">UP Palette</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
